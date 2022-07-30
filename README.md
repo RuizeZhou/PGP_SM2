@@ -1,9 +1,3 @@
-# PGP_SM2
-生成公私钥对-->
-生成会话密钥-->
-用sm2公钥加密会话密钥-->
-用会话密钥加密消息（对称加密算法）-->
-将两条加密信息拼接，转换成文本数据，即可得到报文数据。
 # 项目说明
 
 **1.小组成员**：周睿泽。git账户名称：RuizeZhou
@@ -15,6 +9,7 @@
 简介：实现PGP加密方案，编程语言为python。
 
 主要思路是：
+
 生成公私钥对-->
 生成会话密钥-->
 用sm2公钥加密会话密钥-->
@@ -60,8 +55,6 @@ Project: PoC impl of the scheme, or do implement analysis by Google
 Project: forge a signature to pretend that you are Satoshi
 
 Project: send a tx on Bitcoin testnet, and parse the tx data down to every bit, better write script yourself
-
-Project: forge a signature to pretend that you are Satoshi
 
 Project: research report on MPT
 
@@ -118,6 +111,8 @@ Project: Find a key with hash value “sdu_cst_20220610” under a message compo
 ​	任意更改m消息内容，（默认'abcdefg'），直接运行即可得到PGP加密策略得到的该消息的加密文本。
 
 ### C.代码运行全过程截图
+
+输入消息为'abcdefg'，根据程序得到输出加密文本如下：
 
 ![1659160118677](https://cdn.jsdelivr.net/gh/RuizeZhou/images/1659160118677.png)
 
