@@ -113,14 +113,14 @@ Project: Find a key with hash value “sdu_cst_20220610” under a message compo
         return mss_data2
 ```
 
-### B.运行指导(跑不起来的不算成功)
+### B.运行指导
 
 ​	任意更改m消息内容，（默认'abcdefg'），直接运行即可得到PGP加密策略得到的该消息的加密文本。
 
-### C.代码运行全过程截图(无截图无说明的代码不给分)
+### C.代码运行全过程截图
 
 ![1659160118677](https://cdn.jsdelivr.net/gh/RuizeZhou/images/1659160118677.png)
 
-### D.每个人的具体贡献说明及贡献排序(复制的代码需要标出引用)
+### D.每个人的具体贡献说明及贡献排序
 
 ​	本人负责全部。
